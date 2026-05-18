@@ -767,7 +767,7 @@ export default function AIReadinessTest() {
               </button>
               <svg className="mobile-hide-decoration" width="32" height="32" viewBox="0 0 24 24" fill="none"
                 style={{
-                  display: window.innerWidth < 768 ? 'none' : 'block'
+                  display: window.innerWidth < 768 ? 'none' : 'block',
                   filter: 'drop-shadow(0 0 6px #00E5FF) drop-shadow(0 0 14px rgba(0, 229, 255, 0.7))',
                   position: 'absolute',
                   right: '8%',
