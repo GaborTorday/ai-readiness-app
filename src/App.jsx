@@ -646,9 +646,10 @@ export default function AIReadinessTest() {
             >
               {/* Neon izzó - bal oldalon, a két sor közötti területen, kicsit feljebb */}
               <img
-              className="hidden md:block"
+              className="mobile-hide-decoration"
                 src={BULB_PNG}
                 style={{
+                  display: window.innerWidth < 768 ? 'none' : 'block',
                   position: 'absolute',
                   left: '-30px',
                   top: '-50px',
@@ -661,9 +662,10 @@ export default function AIReadinessTest() {
               />
               {/* Sárga sugarak - jobb oldalon, fent */}
               <img
-              className="hidden md:block"
+              className="mobile-hide-decoration"
                 src={RAYS_PNG}
                 style={{
+                  display: window.innerWidth < 768 ? 'none' : 'block',
                   position: 'absolute',
                   right: '-10px',
                   top: '-60px',
@@ -763,7 +765,7 @@ export default function AIReadinessTest() {
               <button className="cta-button" onClick={() => setStep('quiz')}>
                 Kezdjünk bele!
               </button>
-              <svg className="hidden md:block" width="32" height="32" viewBox="0 0 24 24" fill="none"
+              <svg className="mobile-hide-decoration" width="32" height="32" viewBox="0 0 24 24" fill="none"
                 style={{
                   filter: 'drop-shadow(0 0 6px #00E5FF) drop-shadow(0 0 14px rgba(0, 229, 255, 0.7))',
                   position: 'absolute',
