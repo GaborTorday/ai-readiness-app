@@ -717,7 +717,7 @@ export default function AIReadinessTest() {
               Hol tart a cégetek az AI-érettségben?
             </div>
             <div style={{ color: '#fff', fontSize: '16px', marginTop: '4px', fontWeight: 400 }}>
-              9 kérdés · 3 perc
+              6 kérdés · 2 perc
             </div>
 
             {/* Alsó neon vonal */}
